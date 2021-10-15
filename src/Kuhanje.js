@@ -1,5 +1,4 @@
-﻿import './App.css';
-import {Autocomplete, Chip, Grid, List, ListItem, ListItemText, TextField} from '@mui/material';
+﻿import {Autocomplete, Grid, List, ListItem, TextField} from '@mui/material';
 import React from "react";
 
 function Input() {
@@ -33,12 +32,12 @@ function Input() {
 
                     }}
                     freeSolo
-                    renderTags={(value,getTagProps) =>{
-                        value.map((option,index) => {
-                            <Chip  label ={option} {...getTagProps({index})}/>
-                                
-                        })
-                    }}
+                    // renderTags={(value,getTagProps) =>{
+                    //     value.map((option,index) => {
+                    //         <Chip  label ={option} {...getTagProps({index})}/>
+                    //            
+                    //     })
+                    // }}
                     
                     renderInput={(params) => <TextField {...params} label="Sastojci" />}
                 />
