@@ -1,22 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Kuhanje from "./Kuhanje";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <p>
-          My name is Nijaz.
+          Ubacite sastojke koje imate!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Kuhanje>
+          
+        </Kuhanje>
       </header>
     </div>
   );
